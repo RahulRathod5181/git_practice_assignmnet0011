@@ -1,11 +1,11 @@
 num = 23
 var isprime = true;
-for (i = j; i < num; i++) {
-  if (num % j == 0) {
+for (i = 1; i < = num; i++) {
+  if (num % i == 0) {
     isprime = false;
   }
 }
-if (isprime == false) {
+if (isprime == true) {
   console.log("Yes")
 } else {
   console.log("No")
